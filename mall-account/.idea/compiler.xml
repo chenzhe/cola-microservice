@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-account-infrastructure" />
+        <module name="start" />
+        <module name="mall-account-controller" />
+        <module name="mall-account-client" />
+        <module name="mall-account-domain" />
+        <module name="mall-account-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-account" target="1.8" />
+      <module name="mall-account-app" target="1.8" />
+      <module name="mall-account-client" target="1.8" />
+      <module name="mall-account-controller" target="1.8" />
+      <module name="mall-account-domain" target="1.8" />
+      <module name="mall-account-infrastructure" target="1.8" />
+      <module name="start" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

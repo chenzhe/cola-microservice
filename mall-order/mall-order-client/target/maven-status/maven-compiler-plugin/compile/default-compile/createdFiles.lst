@@ -1,0 +1,7 @@
+cn\startom\mall\order\dto\domainmodel\Order.class
+cn\startom\mall\order\api\OrderServiceI.class
+cn\startom\mall\order\dto\OrderAddCmd.class
+cn\startom\mall\order\dto\domainevent\OrderCreatedEvent.class
+cn\startom\mall\order\dubbo\DubboOrderServiceI.class
+cn\startom\mall\order\dto\domainevent\DomainEventConstant.class
+cn\startom\mall\order\dto\OrderInfoByIdQry.class

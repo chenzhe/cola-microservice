@@ -1,0 +1,8 @@
+cn\startom\mall\order\interceptor\LoggerPreInterceptor.class
+cn\startom\mall\order\service\dubbo\DubboOrderServiceImpl.class
+cn\startom\mall\order\service\OrderServiceImpl.class
+cn\startom\mall\order\eventhandler\OrderCreatedHandler.class
+cn\startom\mall\order\executor\query\OrderByIdQryExe.class
+cn\startom\mall\order\interceptor\ValidationInterceptor.class
+cn\startom\mall\order\executor\OrderAddCmdExe.class
+cn\startom\mall\order\interceptor\LoggerPostInterceptor.class

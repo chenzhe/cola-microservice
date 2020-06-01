@@ -1,0 +1,10 @@
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\config\ColaConfig.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\config\DataSourceConfiguration.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\common\CommonConvertor.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\message\DomainEventPublisher.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\repository\StorageRepository.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\common\ErrCode.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\repository\StorageDO.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\repository\StorageMapper.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\common\BizCode.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-infrastructure\src\main\java\cn\startom\mall\storage\config\DiamondConfig.java

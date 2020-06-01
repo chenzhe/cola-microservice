@@ -1,0 +1,4 @@
+cn\startom\mall\account\config\ColaConfig.class
+cn\startom\mall\account\message\DomainEventPublisher.class
+cn\startom\mall\account\config\DiamondConfig.class
+cn\startom\mall\account\common\BizCode.class

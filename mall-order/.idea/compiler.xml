@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="start" />
+        <module name="mall-order-controller" />
+        <module name="mall-order-domain" />
+        <module name="mall-order-client" />
+        <module name="mall-order-infrastructure" />
+        <module name="mall-order-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-order" target="1.8" />
+      <module name="mall-order-app" target="1.8" />
+      <module name="mall-order-client" target="1.8" />
+      <module name="mall-order-controller" target="1.8" />
+      <module name="mall-order-domain" target="1.8" />
+      <module name="mall-order-infrastructure" target="1.8" />
+      <module name="start" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.startom</groupId>
+		<artifactId>mall-account</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>mall-account-infrastructure</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>mall-account-infrastructure</name>
+	<dependencies>
+		<dependency>
+			<groupId>cn.startom</groupId>
+			<artifactId>mall-account-domain</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+		<!--分布式事务支持-->
+		<dependency>
+			<groupId>io.seata</groupId>
+			<artifactId>seata-all</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<!--对象转换支持-->
+		<dependency>
+			<groupId>net.sf.dozer</groupId>
+			<artifactId>dozer</artifactId>
+			<version>5.5.1</version>
+			<exclusions>
+				<!--                <exclusion>-->
+				<!--                    <artifactId>slf4j-api</artifactId>-->
+				<!--                    <groupId>org.slf4j</groupId>-->
+				<!--                </exclusion>-->
+				<exclusion>
+					<artifactId>jcl-over-slf4j</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!--kafka-->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+	</dependencies>
+</project>

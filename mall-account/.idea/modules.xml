@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mall-account.iml" filepath="$PROJECT_DIR$/mall-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-account-app/mall-account-app.iml" filepath="$PROJECT_DIR$/mall-account-app/mall-account-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-account-client/mall-account-client.iml" filepath="$PROJECT_DIR$/mall-account-client/mall-account-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-account-controller/mall-account-controller.iml" filepath="$PROJECT_DIR$/mall-account-controller/mall-account-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-account-domain/mall-account-domain.iml" filepath="$PROJECT_DIR$/mall-account-domain/mall-account-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-account-infrastructure/mall-account-infrastructure.iml" filepath="$PROJECT_DIR$/mall-account-infrastructure/mall-account-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/start/start.iml" filepath="$PROJECT_DIR$/start/start.iml" />
+    </modules>
+  </component>
+</project>

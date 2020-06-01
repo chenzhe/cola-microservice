@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mall-storage.iml" filepath="$PROJECT_DIR$/mall-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-storage-app/mall-storage-app.iml" filepath="$PROJECT_DIR$/mall-storage-app/mall-storage-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-storage-client/mall-storage-client.iml" filepath="$PROJECT_DIR$/mall-storage-client/mall-storage-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-storage-controller/mall-storage-controller.iml" filepath="$PROJECT_DIR$/mall-storage-controller/mall-storage-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-storage-domain/mall-storage-domain.iml" filepath="$PROJECT_DIR$/mall-storage-domain/mall-storage-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-storage-infrastructure/mall-storage-infrastructure.iml" filepath="$PROJECT_DIR$/mall-storage-infrastructure/mall-storage-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/start/start.iml" filepath="$PROJECT_DIR$/start/start.iml" />
+    </modules>
+  </component>
+</project>

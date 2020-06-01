@@ -1,0 +1,8 @@
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\api\OrderServiceI.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dto\OrderAddCmd.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dto\domainmodel\Order.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dubbo\DubboTccOrderServiceI.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dto\OrderInfoByIdQry.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dto\domainevent\OrderCreatedEvent.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dto\domainevent\DomainEventConstant.java
+D:\projects-demo\micro-services\mall-order\mall-order-client\src\main\java\cn\startom\mall\order\dubbo\DubboOrderServiceI.java

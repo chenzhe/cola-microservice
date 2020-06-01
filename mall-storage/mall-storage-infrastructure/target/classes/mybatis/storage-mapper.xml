@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.startom.mall.storage.repository.StorageMapper">
+    <select id="getByCode" resultType="cn.startom.mall.storage.repository.StorageDO">
+        select * from storage_tbl where commodity_code = #{code } for update
+    </select>
+    <update id="updateStorage" >
+        update storage_tbl set count=#{count} where id=#{id}
+    </update>
+</mapper>

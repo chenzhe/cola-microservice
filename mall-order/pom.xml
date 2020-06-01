@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.startom</groupId>
+    <artifactId>mall-order</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>mall-order</name>
+
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <mybatis-starter.version>1.3.1</mybatis-starter.version>
+        <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
+        <cola.framework.version>2.0.0</cola.framework.version>
+        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--Framework-->
+            <dependency>
+                <groupId>com.alibaba.cola</groupId>
+                <artifactId>cola-common</artifactId>
+                <version>${cola.framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cola</groupId>
+                <artifactId>cola-core</artifactId>
+                <version>${cola.framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cola</groupId>
+                <artifactId>cola-test</artifactId>
+                <version>${cola.framework.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!--Framework End-->
+            <!--Project modules-->
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-order-controller</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-order-client</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-order-app</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-order-domain</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-order-infrastructure</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <!--第三方服务client-->
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-account-client</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.startom</groupId>
+                <artifactId>mall-storage-client</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <!--Project modules End-->
+            <!--Spring Boot-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-starter.version}</version>
+            </dependency>
+            <!--Spring Boot End-->
+            <!--Validation API-->
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>2.0.0.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate.validator</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>6.0.7.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.el</groupId>
+                <artifactId>javax.el-api</artifactId>
+                <version>3.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.web</groupId>
+                <artifactId>javax.el</artifactId>
+                <version>2.2.6</version>
+            </dependency>
+            <!--Validation API End -->
+            <!-- Misc -->
+            <dependency>
+                <groupId>org.reflections</groupId>
+                <artifactId>reflections</artifactId>
+                <version>0.9.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.12.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.55</version>
+            </dependency>
+            <!-- Misc End -->
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>2.8.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>2.8.0</version>
+            </dependency>
+            <!--Spring Cloud-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--Spring Cloud Alibaba-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>3.0.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <configuration>
+                        <skip>true</skip>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+<modules>  <module>mall-order-client</module>
+    <module>mall-order-controller</module>
+    <module>mall-order-app</module>
+    <module>mall-order-domain</module>
+    <module>mall-order-infrastructure</module>
+    <module>start</module>
+  </modules>
+</project>

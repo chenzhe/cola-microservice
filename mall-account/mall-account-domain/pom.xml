@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.startom</groupId>
+		<artifactId>mall-account</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>mall-account-domain</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>mall-account-domain</name>
+	<dependencies>
+		<!-- COLA Framework -->
+		<dependency>
+			<groupId>com.alibaba.cola</groupId>
+			<artifactId>cola-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.cola</groupId>
+			<artifactId>cola-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.cola</groupId>
+			<artifactId>cola-test</artifactId>
+		</dependency>
+		<!-- COLA Framework End-->
+		<dependency>
+			<groupId>cn.startom</groupId>
+			<artifactId>mall-account-client</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+			<pluginManagement>
+					<plugins>
+							<plugin>
+								<artifactId>maven-deploy-plugin</artifactId>
+								<configuration>
+									<skip>true</skip>
+								</configuration>
+							</plugin>
+					</plugins>
+			</pluginManagement>
+	</build>
+</project>

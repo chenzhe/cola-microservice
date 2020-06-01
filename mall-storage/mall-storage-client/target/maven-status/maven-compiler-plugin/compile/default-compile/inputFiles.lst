@@ -1,0 +1,9 @@
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dto\StockDeductCmd.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dubbo\DubboTccStockServiceI.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\api\StorageServiceI.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dto\domainevent\DomainEventConstant.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dto\domainevent\StockDeductEvent.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dubbo\DubboStockServiceI.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dto\StockDeductRefundCmd.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dto\GetStockByCodeQry.java
+D:\projects-demo\micro-services\mall-storage\mall-storage-client\src\main\java\cn\startom\mall\storage\dto\domainmodel\Storage.java

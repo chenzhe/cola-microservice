@@ -1,0 +1,8 @@
+cn\startom\mall\storage\dto\StockDeductCmd.class
+cn\startom\mall\storage\api\StorageServiceI.class
+cn\startom\mall\storage\dto\domainmodel\Storage.class
+cn\startom\mall\storage\dto\StockDeductRefundCmd.class
+cn\startom\mall\storage\dto\domainevent\DomainEventConstant.class
+cn\startom\mall\storage\dubbo\DubboStockServiceI.class
+cn\startom\mall\storage\dto\GetStockByCodeQry.class
+cn\startom\mall\storage\dto\domainevent\StockDeductEvent.class

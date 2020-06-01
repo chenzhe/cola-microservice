@@ -1,0 +1,10 @@
+cn\startom\mall\order\common\ErrCode.class
+cn\startom\mall\order\repository\OrderRepository.class
+cn\startom\mall\order\config\DataSourceConfiguration.class
+cn\startom\mall\order\config\ColaConfig.class
+cn\startom\mall\order\config\DiamondConfig.class
+cn\startom\mall\order\repository\OrderDO.class
+cn\startom\mall\order\message\DomainEventPublisher.class
+cn\startom\mall\order\common\CommonConvertor.class
+cn\startom\mall\order\common\BizCode.class
+cn\startom\mall\order\repository\OrderMapper.class

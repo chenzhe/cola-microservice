@@ -1,0 +1,8 @@
+cn\startom\mall\account\dto\AccountDeductCmd.class
+cn\startom\mall\account\dto\domainevent\AccountDeductEvent.class
+cn\startom\mall\account\dto\domainmodel\Account.class
+cn\startom\mall\account\dto\AccountDeductRefundCmd.class
+cn\startom\mall\account\dubbo\DubboAccountServiceI.class
+cn\startom\mall\account\dto\AccountByIdQry.class
+cn\startom\mall\account\dto\domainevent\DomainEventConstant.class
+cn\startom\mall\account\api\AccountServiceI.class

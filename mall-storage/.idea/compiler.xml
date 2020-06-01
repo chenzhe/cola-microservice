@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="start" />
+        <module name="mall-storage-controller" />
+        <module name="mall-storage-app" />
+        <module name="mall-storage-domain" />
+        <module name="mall-storage-client" />
+        <module name="mall-storage-infrastructure" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-storage" target="1.8" />
+      <module name="mall-storage-app" target="1.8" />
+      <module name="mall-storage-client" target="1.8" />
+      <module name="mall-storage-controller" target="1.8" />
+      <module name="mall-storage-domain" target="1.8" />
+      <module name="mall-storage-infrastructure" target="1.8" />
+      <module name="start" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

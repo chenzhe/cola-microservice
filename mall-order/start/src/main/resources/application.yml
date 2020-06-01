@@ -1,0 +1,65 @@
+
+#dubbo 配置
+dubbo:
+  scan:
+    #dubbo 服务扫描基准包
+    base-packages: cn.startom.mall.order.service.dubbo
+  protocol:
+    #dubbo 协议
+    name: dubbo
+    #dubbo 协议端口（-1 表示自增端口，从20880开始）
+    port: -1
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: "mall-account-service,mall-storage-service"
+  application:
+    qos-port: 33333
+    qos-enable: true
+
+spring:
+  application:
+    name: mall-order-service
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    nacos:
+      #Nacos 服务发现与注册配置
+      discovery:
+        server-addr: 192.168.100.175:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+  kafka:
+    producer:
+      type: async
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      #事务用的前缀
+      transaction-id-prefix: tx.
+    consumer:
+      properties:
+        isolation.level: read_committed
+      enable-auto-commit: false
+    #    request:
+    #      required.acks: 1
+    queue:
+      buffering:
+        max:
+          ms: 5000
+          messages: 10000
+      enqueue:
+        timeout:
+          ms: -1
+    batch:
+      num:
+        messages: 200
+    bootstrap-servers: 192.168.100.175:9092
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+swagger:
+  enabled: true
+
+

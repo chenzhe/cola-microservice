@@ -1,0 +1,4 @@
+cn\startom\mall\storage\config\DiamondConfig.class
+cn\startom\mall\storage\message\DomainEventPublisher.class
+cn\startom\mall\storage\common\BizCode.class
+cn\startom\mall\storage\config\ColaConfig.class

@@ -1,0 +1,29 @@
+dubbo:
+  scan:
+    base-packages: cn.startom.mall.account.service.dubbo
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: "mall-order-service"
+  application:
+    qos-port: 55555
+    qos-enable: true
+
+spring:
+  application:
+    name: mall-account-service
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.100.175:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml

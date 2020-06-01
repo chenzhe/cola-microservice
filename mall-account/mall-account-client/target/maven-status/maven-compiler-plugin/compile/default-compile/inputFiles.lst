@@ -1,0 +1,9 @@
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dubbo\DubboAccountServiceI.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dto\domainevent\AccountDeductEvent.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dto\AccountByIdQry.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dto\AccountDeductCmd.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dto\domainevent\DomainEventConstant.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dto\domainmodel\Account.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dubbo\DubboTccAccountServiceI.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\api\AccountServiceI.java
+D:\projects-demo\micro-services\mall-account\mall-account-client\src\main\java\cn\startom\mall\account\dto\AccountDeductRefundCmd.java

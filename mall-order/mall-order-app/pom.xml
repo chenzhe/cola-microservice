@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.startom</groupId>
+		<artifactId>mall-order</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>mall-order-app</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>mall-order-app</name>
+	<dependencies>
+		<dependency>
+			<groupId>cn.startom</groupId>
+			<artifactId>mall-order-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cn.startom</groupId>
+			<artifactId>mall-order-infrastructure</artifactId>
+		</dependency>
+		<!-- JSR 303 Validation -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>javax.el-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>javax.el</artifactId>
+		</dependency>
+		<!-- JSR 303 Validation End-->
+
+		<!-- Dubbo Spring Cloud -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-alibaba-dubbo</artifactId>
+		</dependency>
+
+		<!--第三方服务client-->
+		<dependency>
+			<groupId>cn.startom</groupId>
+			<artifactId>mall-account-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cn.startom</groupId>
+			<artifactId>mall-storage-client</artifactId>
+		</dependency>
+
+		<!--kafka-->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+		
+	</dependencies>
+
+	<build>
+			<pluginManagement>
+					<plugins>
+							<plugin>
+								<artifactId>maven-deploy-plugin</artifactId>
+								<configuration>
+									<skip>true</skip>
+								</configuration>
+							</plugin>
+					</plugins>
+			</pluginManagement>
+	</build>
+</project>
